@@ -1,6 +1,18 @@
 // Place all the styles related to the Things controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+
+}
+
 h1 {
   padding: 20px;
   margin: 0px;
@@ -9,32 +21,53 @@ h1 {
   text-align: center;
   background-color: #5995DA;
   box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.overall-box{
+  background: #2b1511;
+  min-height: 25em;
+  padding: 1em;
 }
 
 .Left-Top-Box{
-  text-align: center;
-  background-color: green;
   float: left;
-  margin-right: 2
-  width: 49%;
-  text-decoration: line-through;
+  width: 48%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
 }
 .Right-Top-Box{
-  width: 45%;
-  background-color: blue;
-  float: left;
+  float: right;
+  width: 48%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
   text-align: center;
-  text-decoration: line-through;
+  margin: 0 auto;
+  width: 300px;
 }
 .Left-Bottom-Box{
-  width: 45%;
-  background-color: yellow;
+  float: left;
+  width: 48%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
   text-align: center;
-  text-decoration: line-through;
+  margin: 0 auto;
+  width: 300px;
 }
 .Right-Bottom-Box{
-  width: 50%;
+  padding: 20px;
+  width: 48%;
   background-color: purple;
+  float: right;
   text-align: center;
   text-decoration: line-through;
 }
