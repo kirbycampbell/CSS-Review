@@ -2,13 +2,38 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h1 {
-
+  padding: 20px;
+  margin: 0px;
+  background: linear-gradient(-45deg, #57cfb0, #2ab5d3);
   width: 100%;
-  border: 5px solid green;
   text-align: center;
-  //padding: 25px;
-  //margin: 25px;
-  outline-style: double;
-  outline-color: red;
-  //display: flex;
+  background-color: #5995DA;
+  box-sizing: border-box;
+}
+
+.Left-Top-Box{
+  text-align: center;
+  background-color: green;
+  float: left;
+  width: 49%;
+  text-decoration: line-through;
+}
+.Right-Top-Box{
+  width: 45%;
+  background-color: blue;
+  float: left;
+  text-align: center;
+  text-decoration: line-through;
+}
+.Left-Bottom-Box{
+  width: 45%;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: line-through;
+}
+.Right-Bottom-Box{
+  width: 50%;
+  background-color: purple;
+  text-align: center;
+  text-decoration: line-through;
 }
